@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+/* FONTS */
+@font-face{
+    font-family: Raleway-100;
+    src: url('./assets/fonts/raleway/Raleway-Thin.ttf');
+}
+@font-face{
+    font-family: Raleway-200;
+    src: url('./assets/fonts/raleway/Raleway-ExtraLight.ttf');
+}
+@font-face{
+    font-family: Raleway-300;
+    src: url('./assets/fonts/raleway/Raleway-Light.ttf');
+}
+@font-face{
+    font-family: Raleway-400;
+    src: url('./assets/fonts/raleway/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: Raleway-500;
+    src: url('./assets/fonts/raleway/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: Raleway-600;
+    src: url('./assets/fonts/raleway/Raleway-SemiBold.ttf');
+}
+@font-face{
+    font-family: Raleway-700;
+    src: url('./assets/fonts/raleway/Raleway-Bold.ttf');
+}
+html,body{
+    height: 100%;
+    font-family: 'Raleway-200',sans-serif;
+}
