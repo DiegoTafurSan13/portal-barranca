@@ -1,24 +1,8 @@
-/* .navbar{
-  font-family: Raleway-400 !important;
-  height: 100px;
-
-}
-
-.logo-portal{
-  width: auto;
-  height: 50px;
-}*/
 
 .logo-portal img{
   width: 100px;
   height: auto;
 }
-
-/*
-.navbar .dropdown-menu div[class*="col"] {
-  margin-bottom: 1rem;
-}
-*/
 
 .navbar .dropdown-menu {
   border: none;
