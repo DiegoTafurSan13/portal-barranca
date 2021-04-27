@@ -26,7 +26,6 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/scss/bootstrap.scss"
-
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
@@ -125,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "portal-barranca"
+  "defaultProject": "portal-barranca",
+  "cli": {
+    "analytics": "8494ab98-df4e-4014-ac76-4e064c98b31d"
+  }
 }

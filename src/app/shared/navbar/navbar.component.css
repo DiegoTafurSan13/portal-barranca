@@ -1,0 +1,84 @@
+/* .navbar{
+  font-family: Raleway-400 !important;
+  height: 100px;
+
+}
+
+.logo-portal{
+  width: auto;
+  height: 50px;
+}*/
+
+.logo-portal img{
+  width: 100px;
+  height: auto;
+}
+
+/*
+.navbar .dropdown-menu div[class*="col"] {
+  margin-bottom: 1rem;
+}
+*/
+
+.navbar .dropdown-menu {
+  border: none;
+  background-color: rgb(39, 45, 48) !important;
+  margin-top: 8px;
+}
+
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar .dropdown {
+  position: static;
+}
+
+.navbar .dropdown-menu, .municipalidad{
+  width: auto;
+  left: 400px;
+  right: 300px;
+  top: 50px;
+}
+
+.nav-item .ciudad{
+  width: auto;
+  left: 500px;
+  right: 600px;
+  top: 50px;
+}
+
+.nav-item .publicaciones{
+  width: auto;
+  left: 800px;
+  right: 300px;
+  top: 50px;
+}
+
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+  display: block !important;
+}
+
+.navbar .dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, .15);
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  input.srch {
+      padding: 0px;
+      width: 100%;
+  }
+}
+
+a.navbar-brand {
+  color: white;
+}
+
+span.navbar-toggler.icon {
+  color: black;
+}
+
