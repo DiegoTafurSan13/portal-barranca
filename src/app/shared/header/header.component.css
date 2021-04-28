@@ -1,0 +1,23 @@
+/* HEADER */
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: #739b21;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+}
+.header-title{
+    width: 50%;
+}
+.header-rute{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    width: 50%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}

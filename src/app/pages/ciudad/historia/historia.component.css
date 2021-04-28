@@ -1,0 +1,35 @@
+/* HISTORY COMPONENTS */
+.section-history{
+    margin: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+}
+.section-title h2{
+    color:#739b21;
+    font-family: 'Raleway-400',sans-serif;
+}
+.title-icon{
+    display: flex;
+    align-items: center;
+    background-color:#739b21;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px;
+    color: white;
+    
+}
+.section-content{
+    margin-top: 20px;
+    font-size: 14px;
+}
+@media (max-width: 700px) {
+    .section-history{
+        margin: 80px 20px;
+    }
+}
