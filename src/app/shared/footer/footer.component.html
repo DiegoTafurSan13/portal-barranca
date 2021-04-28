@@ -1,0 +1,70 @@
+<div class="wrapper">
+  <div class="wrapper-navlist">
+    <div
+      class="listitem"
+      (mouseenter)="addMoveIcons(1)"
+      (mouseleave)="removeMoveIcons(1)"
+    >
+      <i class="bx bxs-navigation" #moveplus></i>
+      <span>Ubicación de locales</span>
+    </div>
+    <div
+      class="listitem"
+      (mouseenter)="addMoveIcons(2)"
+      (mouseleave)="removeMoveIcons(2)"
+    >
+      <i class="bx bxs-edit" #movemessage></i>
+      <span>Contáctanos</span>
+    </div>
+    <div
+      class="listitem"
+      (mouseenter)="addMoveIcons(3)"
+      (mouseleave)="removeMoveIcons(3)"
+    >
+      <i class="bx bxs-book-reader" #movesitemap></i>
+      <span>Libro de Recomndaciones</span>
+    </div>
+  </div>
+
+  <div class="footer-info container-fluid row">
+    <div class="col-md-4 col-sm-12 img-lema">
+      <img src="./../../../assets/img/logo-lema.png" alt="logo-lema" />
+    </div>
+    <div class="col-md-4 col-sm-6 footer-texts">
+      <p>Dirección : Jr. Zabala N°500-Barranca</p>
+      <p>Hora de Atención : L-V.8:00am - 4:30pm</p>
+      <p>Telefonos : J235-9621/ 235-5721/921591374</p>
+      <p>Correo : informatica@munibarranca.gob.pe</p>
+    </div>
+
+    <div class="col-md-4 col-sm-6 items-sociales">
+      <div class="redes-sociales d-flex justify-content-center">
+        <div class="social-bfacebook mx-1">
+          <a href=""> <i class="icons bx bxl-facebook"></i> </a>
+        </div>
+
+        <div class="social-btwitter mx-1">
+          <a href="#">
+            <i class="icons bx bxl-twitter"></i>
+          </a>
+        </div>
+
+        <div class="social-byoutube mx-1">
+          <a href="#">
+            <i class="icons bx bxl-youtube"></i>
+          </a>
+        </div>
+
+        <div class="social-binstagram mx-1">
+          <a href="#">
+            <i class="icons bx bxl-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <p>
+        {{ anio }}. Municipalidad Provincial de Barranca. Todos los derechos
+        reservados.
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,118 @@
+/* CARROUSEL */
+.wrapper{
+  max-width: 1600px;
+  margin: auto;
+  box-shadow: 0 1px 6px 0px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+}
+
+
+/* NAVLIST  */
+.wrapper-navlist{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color:rgba(255, 184, 25, 1);
+}
+.listitem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 33.3%;
+  cursor: pointer;
+  color: rgba(92, 92, 92, 1);
+  font-size: 14px;
+}
+.listitem i{
+  margin-right: 4px;
+}
+
+
+@media (max-width: 800px) {
+
+  .wrapper-navlist{
+      display: none;
+  }
+}
+
+
+/*  FOOTER */
+.footer-info{
+  background-color: #739b21;
+  color:#5c5c5c;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top:40px;
+}
+
+.img-lema img{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  margin: auto;
+}
+
+.footer-texts{
+  color: #fff;
+  font-size: 13px;
+  padding: 20px
+}
+
+.footer-texts  p{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+
+}
+
+[class^="social-b"]{
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 5;
+}
+
+.redes-sociales{
+  margin-bottom: 16px;
+}
+
+.items-sociales{
+  padding-top: 15px 0;
+  margin: auto;
+
+}
+
+.items-sociales p{
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+.items-sociales .icons{
+  position: absolute;
+top: 2px;
+right: 2px;
+bottom: 2px;
+left: 2px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.social-bfacebook{
+  background-color: #36609f !important;
+}
+
+.social-btwitter{
+  background-color: #2aa9e0 !important;
+}
+
+.social-byoutube{
+  background-color: #ed3437 !important;
+}
+
+.social-binstagram{
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
