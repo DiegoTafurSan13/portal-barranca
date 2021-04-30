@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  data: any[] = [];
+  data:any[]=[];
 
   constructor() { }
 
@@ -15,20 +15,28 @@ export class AppComponent {
     this.addData();
   }
 
-addData() {
-    this.data = [
+  addData(){
+    this.data=[
       {
-        title: 'FORTALECIENDO LA GESTIÓN DE LAS ORGANIZACIONES SOCIALES',
-        info: '#JuntosSíPodemos | Programa virtual de formación: Fortaleciendo la gestión de las organizaciones sociales.'
+        autor:'Joel Quiñones',
+        title:'CONSTRUCCIÓN DE PISTAS Y VEREDAS DE LA ASOCIACIÓN DE VIVIENDA VIRGEN DE CHAPI',
+        date:'20 ENE 2021',
+        url:'http://www.munibarranca.gob.pe/mpb/images/prensa/PRENSA-21.jpg'
       },
       {
-        title: 'LABORATORIO SOCIAL: CREA TU ORGANIZACIÓN JUVENIL',
-        info: '#ProgramaVirtual Laboratorio social: Crea tu organización juvenil.'
+        autor:'Joel Quiñones',
+        title:'CONSTRUCCIÓN DE PISTAS Y VEREDAS DE LA ASOCIACIÓN DE VIVIENDA VIRGEN DE CHAPI',
+        date:'20 ENE 2021',
+        url:'http://www.munibarranca.gob.pe/mpb/images/prensa/PRENSA-20.jpg'
       },
       {
-        title: 'TALLERES DE VERANO - EDICIÓN VIRTUAL 2021',
-        info: '#ProgramaVirtual Laboratorio social: Crea tu organización juvenil.'
+        autor:'Joel Quiñones',
+        title:'CONSTRUCCIÓN DE PISTAS Y VEREDAS DE LA ASOCIACIÓN DE VIVIENDA VIRGEN DE CHAPI',
+        date:'20 ENE 2021',
+        url:'http://www.munibarranca.gob.pe/mpb/images/prensa/PRENSA-19.jpg'
       }
+
+
     ]
   }
 }
