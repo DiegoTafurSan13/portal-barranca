@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="wrapper-header">
+        <span>¡NUESTROS </span>
+        <span>EVENTOS!</span>
+    </div>
+    <div class="wrapper-section">
+        <div class="item" *ngFor="let item of data">
+            <div class="item-right">
+                <span>20</span>
+                <span>ENE 2021</span>
+            </div>
+            <div class="item-left">
+                <span>{{item.title}}</span>
+                <span>{{item.info}}</span>
+            </div>
+        </div>
+    </div>
+</div>

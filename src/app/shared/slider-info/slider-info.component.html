@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <div class="wrapper-title">
+        <span>¡MUNIBARRANCA</span>
+        <span>TE INFORMA!</span>
+    </div>
+    <div class="wrapper-slider">
+        <div class="slider-item" *ngFor="let item of data">
+            <div class="slider-image" style="background-image: url({{item.url}});"><div class="date"><span>{{item.date}}</span></div></div>
+            <div class="slider-title"><span>{{item.title}}</span></div>
+            <hr>
+            <div class="slider-info">
+                <div class="firts-info">
+                    <span>By: </span>
+                    <i class='bx bxs-user'></i>
+                    <span>{{ item.autor}}</span>
+                </div>
+                <div class="second-info">
+                    <i class='bx bxs-pencil'></i>
+                    <span> Nota de Prensa</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
