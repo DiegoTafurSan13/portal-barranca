@@ -8,9 +8,10 @@ import { SliderInfoComponent } from './slider-info/slider-info.component';
 import { EventComponent } from './event/event.component';
 import { AditionalComponent } from './aditional/aditional.component';
 
+import { AccesosDirectosComponent } from './accesos-directos/accesos-directos.component';
 
 @NgModule({
-  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent, AditionalComponent],
+  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent, AditionalComponent, AccesosDirectosComponent],
 
   imports: [
     CommonModule,
@@ -22,7 +23,7 @@ import { AditionalComponent } from './aditional/aditional.component';
     FooterComponent,
     SliderInfoComponent,
     EventComponent,
-    AditionalComponent
-  ]
+    AditionalComponent,
+    AccesosDirectosComponent]
 })
 export class SharedModule { }

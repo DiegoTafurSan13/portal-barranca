@@ -126,6 +126,10 @@
   },
   "defaultProject": "portal-barranca",
   "cli": {
+<<<<<<< HEAD
     "analytics": "8494ab98-df4e-4014-ac76-4e064c98b31d"
+=======
+    "analytics": "eb562bbc-618f-4951-9c74-90198d569617"
+>>>>>>> 55ecf19 (accesos directos)
   }
 }
