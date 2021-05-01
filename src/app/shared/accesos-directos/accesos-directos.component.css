@@ -20,68 +20,44 @@
 }
 .wrapper-slider{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
   margin: 30px 0px;
 }
-.slider-item{
-  width: 32%;
-  cursor: pointer;
-}
 
-.slider-image{
+.content-info{
   width: 100%;
-  height: 240px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.slider-image:hover{
-  opacity: 0.5;
-}
-.date{
-  background-color: #739b21;
-  width: 50px;
-  padding: 20px 10px;
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  font-size: 15px;
-}
-.slider-title{
-  font-family: 'Raleway-700',sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: left;
-  color: #739b21;
-  margin: 10px 0px;
-}
-.slider-info{
+  height: 200px;
+  border: 1px solid #739b21;
+  border-radius: 5px;
   display: flex;
-  font-size: 13px;
-  text-align: center;
-  align-items: center;
+  flex-direction: row;
 }
-.firts-info{
-  border-right: 1px solid rgba(0,0,0,.3);
-  padding: 0px 20px;
-}
-.firts-info span:nth-child(1){
-  color: #ffb819 ;
-  font-weight: bold;
-}
-.firts-info i:nth-child(2){
-  color: #739b21;
-  margin-right: 5px;
-}
-.firts-info span:nth-child(3){
-  color: rgba(0,0,0,.3);
-  font-weight: bold;
-}
-.second-info{
-  margin-left: 10px;
 
+.content-icons h3{
+  font-size: 50px;
+
+}
+
+.items{
+  color: #739b21;
+  margin: auto;
+}
+
+.items .content-text{
+  font-size: 20px;
+}
+
+.items .content-text a{
+  text-decoration: none;
+  color: #739b21;
+}
+
+.items .content-text a p{
+  font-weight: 400;
+}
+
+.items .content-text a p :hover{
+  color: rgb(108, 143, 38);
 }
 
 @media (max-width:890px){
