@@ -7,8 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SliderInfoComponent } from './slider-info/slider-info.component';
 import { EventComponent } from './event/event.component';
 import { AditionalComponent } from './aditional/aditional.component';
-
 import { AccesosDirectosComponent } from './accesos-directos/accesos-directos.component';
+import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
 
 @NgModule({
   declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent, AditionalComponent, AccesosDirectosComponent],

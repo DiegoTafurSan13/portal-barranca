@@ -1,0 +1,78 @@
+/*CONFIG SLIDER  */
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-title{
+  display: flex;
+  font-family: 'Raleway-300',sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.wrapper-title span:nth-child(1){
+  color: #ffb819 ;
+  margin-right: 5px;
+}
+.wrapper-title span:nth-child(2){
+  color: #739b21;
+}
+
+.wrapper-slider{
+  display: flex;
+
+  margin: 30px 0px;
+}
+
+.content-icons{
+  margin: auto;
+  color: #fff;
+}
+
+.content-info{
+  width: 100%;
+  height: 240px;
+  background-color: rgba(123, 72, 132, 1);
+  display: flex;
+  flex-direction: row;
+}
+
+.content-icons h3{
+  font-size: 45px;
+}
+
+.content-text h2{
+  font-size: 18px !important;
+}
+
+.content-text a{
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0px 0px 1px black;
+}
+
+.items{
+  width: 80%;
+  height: 80%;
+  color: #739b21;
+  margin: auto;
+}
+
+
+
+@media (max-width:890px){
+  .wrapper-slider{
+      flex-direction: column;
+      justify-content: center;
+  }
+  .slider-item{
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+  }
+  .wrapper-title{
+      flex-direction: column;
+      align-items: center;
+  }
+}
