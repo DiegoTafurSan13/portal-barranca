@@ -6,10 +6,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderInfoComponent } from './slider-info/slider-info.component';
 import { EventComponent } from './event/event.component';
+import { AditionalComponent } from './aditional/aditional.component';
 
 
 @NgModule({
-  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent],
+  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent, AditionalComponent],
 
   imports: [
     CommonModule,
@@ -20,7 +21,8 @@ import { EventComponent } from './event/event.component';
     HeaderComponent,
     FooterComponent,
     SliderInfoComponent,
-    EventComponent
+    EventComponent,
+    AditionalComponent
   ]
 })
 export class SharedModule { }
