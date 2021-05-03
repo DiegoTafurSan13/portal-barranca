@@ -9,9 +9,13 @@ import { EventComponent } from './event/event.component';
 import { AditionalComponent } from './aditional/aditional.component';
 import { AccesosDirectosComponent } from './accesos-directos/accesos-directos.component';
 import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
+import { ServiciosComunidadComponent } from './servicios-comunidad/servicios-comunidad.component';
 
 @NgModule({
-  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent, FooterComponent, SliderInfoComponent, EventComponent, AditionalComponent, AccesosDirectosComponent],
+  declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent,
+    FooterComponent, SliderInfoComponent, EventComponent,
+    AditionalComponent, AccesosDirectosComponent,
+    ServiciosComunidadComponent, MasBuscadosComponent],
 
   imports: [
     CommonModule,
@@ -24,6 +28,8 @@ import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
     SliderInfoComponent,
     EventComponent,
     AditionalComponent,
-    AccesosDirectosComponent]
+    AccesosDirectosComponent,
+    MasBuscadosComponent,
+    ServiciosComunidadComponent]
 })
 export class SharedModule { }
