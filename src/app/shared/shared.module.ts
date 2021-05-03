@@ -11,12 +11,14 @@ import { AccesosDirectosComponent } from './accesos-directos/accesos-directos.co
 import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
 import { ServiciosComunidadComponent } from './servicios-comunidad/servicios-comunidad.component';
 import { NovedadesComunidadComponent } from './novedades-comunidad/novedades-comunidad.component';
+import { ProgramasSocialesComponent } from './programas-sociales/programas-sociales.component';
 
 @NgModule({
   declarations: [  NavbarComponent , CarrouselComponent, HeaderComponent,
     FooterComponent, SliderInfoComponent, EventComponent,
     AditionalComponent, AccesosDirectosComponent,
-    ServiciosComunidadComponent, MasBuscadosComponent, NovedadesComunidadComponent],
+    ServiciosComunidadComponent, MasBuscadosComponent, NovedadesComunidadComponent,
+    ProgramasSocialesComponent],
 
   imports: [
     CommonModule,
@@ -32,6 +34,8 @@ import { NovedadesComunidadComponent } from './novedades-comunidad/novedades-com
     AccesosDirectosComponent,
     MasBuscadosComponent,
     ServiciosComunidadComponent,
-    NovedadesComunidadComponent]
+    NovedadesComunidadComponent,
+    ProgramasSocialesComponent
+  ],
 })
 export class SharedModule { }
