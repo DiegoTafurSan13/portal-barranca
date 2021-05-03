@@ -8,8 +8,8 @@ import { SliderInfoComponent } from './slider-info/slider-info.component';
 import { EventComponent } from './event/event.component';
 import { AditionalComponent } from './aditional/aditional.component';
 import { AccesosDirectosComponent } from './accesos-directos/accesos-directos.component';
-import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
 import { ServiciosComunidadComponent } from './servicios-comunidad/servicios-comunidad.component';
+import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
 import { NovedadesComunidadComponent } from './novedades-comunidad/novedades-comunidad.component';
 import { ProgramasSocialesComponent } from './programas-sociales/programas-sociales.component';
 
